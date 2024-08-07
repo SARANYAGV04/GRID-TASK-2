@@ -1,0 +1,84 @@
+body{
+    gap:20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#whole{
+    display: grid;
+    gap:5px;
+    grid-template-columns: auto auto auto auto auto auto ; 
+}
+#whole>div{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: white;
+}
+.box1{
+    display: grid;
+    grid-column: 1/2;
+    background-color:#cb3580; 
+}
+.box2{
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 1/3;
+    background-color:#f5f11d; 
+}
+.box3{                                   
+    display: grid;
+    grid-column: 4/6;
+    grid-row: 1/5;
+    font-size: 20px;
+    color: white;
+    background-color:#da1a54; 
+}
+.box4{
+    display: grid;
+    grid-column: 6/7;
+    background-color:#1c19d8; 
+}
+.box5{
+    display: grid;
+    grid-column: 1/2;
+    background-color:#0ef1df; 
+}
+.box6{
+    display: grid;
+    grid-column: 6/7;
+    background-color:#34e211; 
+}
+.box7{
+    display: grid;
+    grid-column: 1/2;
+    background-color:#18e981; 
+}
+.box8{
+    display: grid;
+    grid-column: 2/3;
+    background-color: rgb(231, 22, 119); 
+}
+.box9{
+    display: grid;
+    grid-column: 3/4;
+    background-color:#6be226c9; 
+}
+.box10{
+    display: grid;
+    grid-column: 6/7;
+    background-color:#810303d3; 
+}
+.box11{
+    display: grid;
+    grid-column: 1/4;
+    background-color:#cc13d3; 
+}
+.box12{
+    display: grid;
+    grid-column: 6/7;
+    background-color: red; 
+}
+
